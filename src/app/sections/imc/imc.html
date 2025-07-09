@@ -1,0 +1,11 @@
+<div [ngClass]="category" class="category" id="categoria">
+  <h2>Calculadora IMC</h2>
+  <p>Peso: {{ peso() }} kg</p>
+  <p>IMC: {{ bmi }}</p>
+  <p>Categoría: {{ category }}</p>
+  <p>Altura Promedio: {{ altura }}</p>
+
+  <button (click)="incrementar()">Incrementar Peso</button>
+  <button (click)="decrementar()">Decrementar Peso</button>
+  <button (click)="reiniciar()">Reiniciar Peso</button>
+</div>

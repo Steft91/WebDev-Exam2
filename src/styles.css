@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+:root {
+    --celeste: hsl(201, 54%, 79%);
+    --celeste-oscuro: hsl(202, 46%, 61%);
+    --celeste-oscuro-tr: hsla(202, 47%, 38%, 0.534);
+    --celeste-oscuro-tr-2: hsla(202, 53%, 20%);
+}
+
+.heading {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: var(--morado);
+}
+ 
+.tittle {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    color: #534630;
+    margin-bottom: 2rem;
+    padding: 20px;
+    background-color: rgba(235, 229, 182, 0.7);
+    border-radius: 30px;
+
+}
+
+main {
+    /* background-image: url("assets/img/image.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
